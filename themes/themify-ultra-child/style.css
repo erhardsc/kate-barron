@@ -1,8 +1,84 @@
 /*
 Theme Name: Themify Ultra Child
 Description: Child theme for Ultra theme
-Author: Sumner
+Author: Sumner Erhard - https://www.sumnererhard.com
 Template: themify-ultra
 */
 
 /*** Sumner Styles Start ***/
+
+/* =================================
+  Base Layout Styles
+==================================== */
+
+.footer-widgets .col4-1,
+#footer .footer-text {
+    text-align: center;
+
+}
+
+#footer .main-col {
+    position: absolute;
+    top: 90%;
+}
+
+#main-nav #menu-item-17 {
+    background-color: #ddc37e !important;
+    -webkit-border-radius: 50px !important;
+    -moz-border-radius: 50px !important;
+    border-radius: 50px !important;
+    margin-top: 1.2em !important;
+}
+
+#main-nav #menu-item-17 a {
+    font-weight: 600 !important;
+    color: white !important;
+    line-height: normal !important;
+    text-align: center !important;
+}
+
+#main-nav #menu-item-17 a:hover{
+    color: #354456 !important;
+}
+
+/* =================================
+  Tablet Layout Styles
+==================================== */
+
+@media (min-width: 680px) {
+    .footer-widgets .col4-1 {
+        text-align: left;
+    }
+
+    #footer .footer-text{
+        text-align: right;
+    }
+
+    #footer .main-col {
+        position: relative;
+        top:0;
+    }
+
+    #main-nav #menu-item-17 {
+        margin-top: 0;
+        margin-left: 1.95em;
+        font-size: .8em;
+    }
+}
+
+/* =================================
+  Desktop Layout Styles
+==================================== */
+
+@media (min-width: 1024px) {
+    #main-nav #menu-item-17 {
+        padding: 0 1.5em 0 1.5em !important;
+    }
+
+
+}
+
+
+
+
+

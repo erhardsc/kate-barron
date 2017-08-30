@@ -1,0 +1,97 @@
+/* Themify Customize Styling */
+body {	
+	font-family:Montserrat;	font-weight:normal;
+
+	color: #354456; 
+}
+a {		font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+
+	color: #354456; 
+}
+h1 {	
+	font-family:Montserrat;	font-weight:normal;
+ 
+}
+h2 {	
+	font-family:Lora;	font-style:italic;
+	font-weight:normal;
+	font-style:italic;
+ 
+}
+#headerwrap {	
+	background-color: #ffffff; 
+}
+#header {	
+	font-family:Montserrat;	font-weight:normal;
+
+	color: #354456; 
+}
+#headerwrap.fixed-header #header, #headerwrap.fixed-header #site-description {		text-align:left; 
+}
+#site-logo, #site-logo a, .header-horizontal #site-logo, .header-minbar #site-logo, .header-leftpane #site-logo, .header-slide-out #site-logo, .boxed-compact #site-logo, .header-top-bar #site-logo {		font-weight:800;
+	text-transform:capitalize; 
+}
+#main-nav a:hover, #main-nav > li > a:hover {	
+	color: #ddc37e; 
+}
+#main-nav .current_page_item > a, #main-nav .current-menu-item > a, #main-nav > .current_page_item > a, #main-nav > .current-menu-item > a {	
+	color: #354456; 
+}
+#main-nav .current_page_item a:hover,  #main-nav .current-menu-item a:hover {	
+	color: #ddc37e; 
+}
+#footerwrap {	
+	background-color: #354456; 
+}
+#footer {	
+	color: #606e7b; 
+}
+#footer, #footer-logo, .footer-nav a, .footer-text {	
+	font-family:Montserrat;	font-weight:normal;
+	font-size:.7em;
+	text-align:right; 
+}
+#footer a {	
+	color: #606e7b;
+	font-family:Montserrat;	font-weight:bold;
+	font-size:.8em;
+	text-align:left; 
+}
+#footer a:hover {	
+	color: #ddc37e;	font-style:normal;
+	font-weight:normal;
+	text-decoration:none;
+ 
+}
+.footer-widgets .widget {	
+	padding-top: 6px; 
+}
+.footer-widgets {		font-weight:normal;
+	letter-spacing:2px;
+	text-align:left; 
+}
+@media screen and (max-width: 680px) { /* Themify Customize Styling */
+#headerwrap {	
+	background-color: #ffffff; 
+}
+#header {	
+	color: #354456; 
+}
+#main-nav a:hover, #main-nav > li > a:hover {	
+	color: #ddc37e; 
+}
+#footerwrap {	
+	background-color: #354456; 
+}
+#footer {	
+	color: #606e7b; 
+}
+#footer a {	
+	color: #606e7b; 
+}
+#footer a:hover {	
+	color: #ddc37e; 
+}
+ }
