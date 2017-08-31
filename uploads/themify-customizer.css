@@ -11,8 +11,9 @@ a {		font-style:normal;
 	color: #354456; 
 }
 h1 {	
-	font-family:Montserrat;	font-weight:normal;
- 
+	font-family:Montserrat;	font-weight:bold;
+	letter-spacing:1px;
+	text-transform:capitalize; 
 }
 h2 {	
 	font-family:Lora;	font-style:italic;
@@ -24,8 +25,10 @@ h2 {
 	background-color: #ffffff; 
 }
 #header {	
-	font-family:Montserrat;	font-weight:normal;
-
+	font-family:Montserrat;	font-weight:bold;
+	font-size:.9em;
+	letter-spacing:.1em;
+	text-transform:uppercase;
 	color: #354456; 
 }
 #headerwrap.fixed-header #header, #headerwrap.fixed-header #site-description {		text-align:left; 

@@ -38,7 +38,7 @@ if ( ! isset( $content_width ) ) {
  * Twenty Fifteen only works in WordPress 4.1 or later.
  */
 if ( version_compare( $GLOBALS['wp_version'], '4.1-alpha', '<' ) ) {
-	require get_template_directory() . '/inc/back-compat.php';
+	require get_template_directory() . '/img/back-compat.php';
 }
 
 if ( ! function_exists( 'twentyfifteen_setup' ) ) :
@@ -390,18 +390,18 @@ add_filter( 'get_search_form', 'twentyfifteen_search_form_modify' );
  *
  * @since Twenty Fifteen 1.0
  */
-require get_template_directory() . '/inc/custom-header.php';
+require get_template_directory() . '/img/custom-header.php';
 
 /**
  * Custom template tags for this theme.
  *
  * @since Twenty Fifteen 1.0
  */
-require get_template_directory() . '/inc/template-tags.php';
+require get_template_directory() . '/img/template-tags.php';
 
 /**
  * Customizer additions.
  *
  * @since Twenty Fifteen 1.0
  */
-require get_template_directory() . '/inc/customizer.php';
+require get_template_directory() . '/img/customizer.php';

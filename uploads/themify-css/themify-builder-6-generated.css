@@ -1,0 +1,20 @@
+/* .themify_builder_6_row.module_row_0 Style */
+.themify_builder_6_row.module_row_0.module_row {
+	background-image: url(https://themify.me/demo/themes/builder-layouts/files/2016/06/working_on_laptop-1024x575.jpg);
+	padding-top : 18%;
+	padding-bottom : 8%
+}
+.themify_builder_6_row.module_row_0.module_row>.builder_row_cover {
+	background:
+}
+.themify_builder_6_row.module_row_0.module_row> div > .builder_row_cover {
+	background:
+}
+
+.themify_builder .text-6-0-0-0.module-text { color: #ffffff;  } 
+.themify_builder .text-6-0-0-0.module-text h1 { color: #ffffff;  } 
+.themify_builder .text-6-0-0-0.module-text h2 { color: #ffffff;  } 
+.themify_builder .text-6-0-0-0.module-text h3:not(.module-title) { color: #ffffff;  } 
+.themify_builder .text-6-0-0-0.module-text h4 { color: #ffffff;  } 
+.themify_builder .text-6-0-0-0.module-text h5 { color: #ffffff;  } 
+.themify_builder .text-6-0-0-0.module-text h6 { color: #ffffff;  } 
