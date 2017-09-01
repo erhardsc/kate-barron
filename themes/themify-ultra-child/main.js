@@ -46,6 +46,15 @@ jQuery(function () {
         $("#sexy-label-5").addClass("animate-2");
     });
 
-
 });
+
+// $(document).ready(function() {
+//
+//     // $(".accordion").append('<div class="arrow down"></div>');
+//
+//     // $(".accordion").each(function (i) {
+//     //     $(".module-accordion li").append('<div class="arrow down"></div>');
+//     // });
+//
+// });
 

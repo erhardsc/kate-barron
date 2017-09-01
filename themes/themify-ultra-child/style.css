@@ -42,7 +42,7 @@ Template: themify-ultra
     transition: all .2s ease-in-out;
 }
 
-.module_column_6-1-0 {
+.home .module_column_6-1-0 {
      margin-top: 10px;
  }
 
@@ -103,10 +103,11 @@ Template: themify-ultra
     border: none !important;
 }
 
-.home .kates-promise .image-wrap {
+.kates-promise .image-wrap {
     position: relative;
     bottom: 75px;
 }
+
 .home .themify_builder_6_row.module_row_3.module_row {
     padding-bottom: 15% !important;
 }
@@ -128,6 +129,41 @@ Template: themify-ultra
 .home .module_column_6-3-0 {
     border: none;
     padding: 0;
+}
+
+.experience-specialty h3{
+    text-align: center;
+    padding-top: 3%;
+}
+
+.accordion-title a{
+    background-color: #DDC27E;
+    border-top: 1px solid #E9DAB1 !important;
+    font-size: .8em;
+    font-style: italic;
+}
+
+/*.arrow {*/
+    /*position: relative;*/
+    /*float: right;*/
+    /*width: 0px;*/
+    /*height: 0px;*/
+    /*margin-top: 23px;*/
+    /*border: 10px solid transparent;*/
+    /*margin-top: 21px;*/
+    /*border-top-color: #E9DAB2;*/
+    /*bottom: 60px;*/
+
+/*}*/
+
+.accordion-icon,
+.accordion-active-icon{
+    float: right;
+    color: #E9DAB2;
+}
+
+.module-accordion {
+    border:none !important;
 }
 
 /* =================================
@@ -183,7 +219,7 @@ Template: themify-ultra
         z-index: 10;
     }
 
-    .module_column_6-1-0 {
+    .home .module_column_6-1-0 {
         margin-top: 0;
     }
 
@@ -209,18 +245,18 @@ Template: themify-ultra
         visibility: visible !important;
     }
 
-    .module_column_6-1-0 {
+    .home .module_column_6-1-0 {
         border-top-left-radius: 20px;
         border-bottom-left-radius: 20px;
     }
 
-    .module_column_6-1-3 {
+    .home .module_column_6-1-3 {
         border: none;
         border-top-right-radius: 20px;
         border-bottom-right-radius: 20px;
     }
 
-    .module_row_1 .row_inner {
+    .home .module_row_1 .row_inner {
         position: relative;
         bottom: 70px
     }
@@ -228,6 +264,11 @@ Template: themify-ultra
     .home .module_column_6-3-0 {
         border-right: rgba(209,209,209,  1.00) 1px solid;
         padding-right: 5%;
+    }
+
+    .experience-specialty h3{
+        text-align: left;
+        padding-top: 0;
     }
 
 }
@@ -247,6 +288,10 @@ Template: themify-ultra
 
     .services-tabs .module-image .image-wrap img {
         width: 80px !important;
+    }
+
+    .accordion-title a{
+        font-size: 1em;
     }
     /*.services-tabs:hover {*/
         /*transform: translateY(25px) scale(1.2);*/
