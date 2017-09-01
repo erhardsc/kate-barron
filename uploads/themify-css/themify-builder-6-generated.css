@@ -1,8 +1,10 @@
 /* .themify_builder_6_row.module_row_0 Style */
 .themify_builder_6_row.module_row_0.module_row {
-	background-image: url(https://themify.me/demo/themes/builder-layouts/files/2016/06/working_on_laptop-1024x575.jpg);
-	padding-top : 18%;
-	padding-bottom : 8%
+	background-image: url(http://localhost/kate-barron/wp-content/uploads/2017/09/home-stock-fade-1024x682.png);
+	
+	background-color: rgba(221,224,217, 1.00);
+	padding-top : 12%;
+	padding-bottom : 12%
 }
 .themify_builder_6_row.module_row_0.module_row>.builder_row_cover {
 	background:
@@ -11,6 +13,12 @@
 	background:
 }
 
+@media screen and (max-width: 680px) {/* .themify_builder_6_row.module_row_0 Style */
+.themify_builder_6_row.module_row_0.module_row {
+	background-image: url(http://localhost/kate-barron/wp-content/uploads/2017/09/home-stock-fade.png)
+}
+
+}
 .themify_builder .text-6-0-0-0.module-text { color: #ffffff;  } 
 .themify_builder .text-6-0-0-0.module-text h1 { color: #ffffff;  } 
 .themify_builder .text-6-0-0-0.module-text h2 { color: #ffffff;  } 
@@ -18,3 +26,175 @@
 .themify_builder .text-6-0-0-0.module-text h4 { color: #ffffff;  } 
 .themify_builder .text-6-0-0-0.module-text h5 { color: #ffffff;  } 
 .themify_builder .text-6-0-0-0.module-text h6 { color: #ffffff;  } 
+.themify_builder .text-6-0-0-0.module.module-text h1 { color: #487693; font-size: 4em;  } 
+.themify_builder .text-6-0-0-0.module.module-text h3 { font-family: Lora; color: #487693; font-size: 2em;  } 
+.themify_builder .buttons-6-0-0-1.module.module-buttons { padding-top: 3%;  } 
+.themify_builder .buttons-6-0-0-1 .module-buttons .module-buttons-item a { background-color: #815e72; color: #ffffff; border-top-color: #815e72; border-top-width: 2px; border-top-style: solid; border-right-color: #815e72; border-right-width: 2px; border-right-style: solid; border-bottom-color: #815e72; border-bottom-width: 2px; border-bottom-style: solid; border-left-color: #815e72; border-left-width: 2px; border-left-style: solid;  } 
+.themify_builder .buttons-6-0-0-1 .module-buttons .module-buttons-item a:hover { background-color: #815e72; background-color: rgba(129,94,114, 0.05); color: #815e72;  } 
+/* .themify_builder_6_row.module_row_1 Style */
+.themify_builder_6_row.module_row_1.module_row {
+	
+	background-color: rgba(129,94,114, 1)
+}
+
+/* .module_row_1 .module_column_0.tb_6_column Style */
+.module_row_1 .module_column_0.tb_6_column.module_column {
+	
+	background-color: rgba(255,255,255, 1.00);
+	padding-top : 2em;
+	padding-bottom : 2em
+}
+
+.themify_builder .image-6-1-0-0.module-image .image-content .image-caption { font-family: Lora; color: #815e72;  } 
+.themify_builder .text-6-1-0-1.module-text { font-family: Lora; color: #815e72; text-align: center; text-transform: none; font-style: italic; text-decoration: underline;  } 
+.themify_builder .text-6-1-0-1.module-text h1 { font-family: Lora; color: #815e72;  } 
+.themify_builder .text-6-1-0-1.module-text h2 { font-family: Lora; color: #815e72;  } 
+.themify_builder .text-6-1-0-1.module-text h3:not(.module-title) { font-family: Lora; color: #815e72;  } 
+.themify_builder .text-6-1-0-1.module-text h4 { font-family: Lora; color: #815e72;  } 
+.themify_builder .text-6-1-0-1.module-text h5 { font-family: Lora; color: #815e72;  } 
+.themify_builder .text-6-1-0-1.module-text h6 { font-family: Lora; color: #815e72;  } 
+.themify_builder .text-6-1-0-1.module-text a { color: #815e72;  } 
+/* .module_row_1 .module_column_1.tb_6_column Style */
+.module_row_1 .module_column_1.tb_6_column.module_column {
+	
+	background-color: rgba(255,255,255, 1.00);
+	padding-top : 2em;
+	padding-bottom : 2em
+}
+
+.themify_builder .image-6-1-1-0.module-image .image-content .image-caption { font-family: Lora; color: #815e72;  } 
+.themify_builder .text-6-1-1-1.module-text { font-family: Lora; color: #815e72; text-align: center; text-transform: none; font-style: italic; text-decoration: underline;  } 
+.themify_builder .text-6-1-1-1.module-text h1 { font-family: Lora; color: #815e72;  } 
+.themify_builder .text-6-1-1-1.module-text h2 { font-family: Lora; color: #815e72;  } 
+.themify_builder .text-6-1-1-1.module-text h3:not(.module-title) { font-family: Lora; color: #815e72;  } 
+.themify_builder .text-6-1-1-1.module-text h4 { font-family: Lora; color: #815e72;  } 
+.themify_builder .text-6-1-1-1.module-text h5 { font-family: Lora; color: #815e72;  } 
+.themify_builder .text-6-1-1-1.module-text h6 { font-family: Lora; color: #815e72;  } 
+.themify_builder .text-6-1-1-1.module-text a { color: #815e72;  } 
+/* .module_row_1 .module_column_2.tb_6_column Style */
+.module_row_1 .module_column_2.tb_6_column.module_column {
+	
+	background-color: rgba(255,255,255, 1.00);
+	padding-top : 2em;
+	padding-bottom : 2em
+}
+
+.themify_builder .image-6-1-2-0.module-image .image-content .image-caption { font-family: Lora; color: #815e72;  } 
+.themify_builder .text-6-1-2-1.module-text { font-family: Lora; color: #815e72; text-align: center; text-transform: none; font-style: italic; text-decoration: underline;  } 
+.themify_builder .text-6-1-2-1.module-text h1 { font-family: Lora; color: #815e72;  } 
+.themify_builder .text-6-1-2-1.module-text h2 { font-family: Lora; color: #815e72;  } 
+.themify_builder .text-6-1-2-1.module-text h3:not(.module-title) { font-family: Lora; color: #815e72;  } 
+.themify_builder .text-6-1-2-1.module-text h4 { font-family: Lora; color: #815e72;  } 
+.themify_builder .text-6-1-2-1.module-text h5 { font-family: Lora; color: #815e72;  } 
+.themify_builder .text-6-1-2-1.module-text h6 { font-family: Lora; color: #815e72;  } 
+.themify_builder .text-6-1-2-1.module-text a { color: #815e72;  } 
+/* .module_row_1 .module_column_3.tb_6_column Style */
+.module_row_1 .module_column_3.tb_6_column.module_column {
+	
+	background-color: rgba(255,255,255, 1.00);
+	padding-top : 2em;
+	padding-bottom : 2em
+}
+
+.themify_builder .image-6-1-3-0.module-image .image-content .image-caption { font-family: Lora; color: #815e72;  } 
+.themify_builder .text-6-1-3-1.module-text { font-family: Lora; color: #815e72; text-align: center; text-transform: none; font-style: italic; text-decoration: underline;  } 
+.themify_builder .text-6-1-3-1.module-text h1 { font-family: Lora; color: #815e72;  } 
+.themify_builder .text-6-1-3-1.module-text h2 { font-family: Lora; color: #815e72;  } 
+.themify_builder .text-6-1-3-1.module-text h3:not(.module-title) { font-family: Lora; color: #815e72;  } 
+.themify_builder .text-6-1-3-1.module-text h4 { font-family: Lora; color: #815e72;  } 
+.themify_builder .text-6-1-3-1.module-text h5 { font-family: Lora; color: #815e72;  } 
+.themify_builder .text-6-1-3-1.module-text h6 { font-family: Lora; color: #815e72;  } 
+.themify_builder .text-6-1-3-1.module-text a { color: #815e72;  } 
+/* .themify_builder_6_row.module_row_2 Style */
+.themify_builder_6_row.module_row_2.module_row {
+	
+	background-color: rgba(129,94,114, 1.00);
+	text-align: center;
+	
+	color: rgba(255,255,255, 1.00);
+	padding-bottom : 7%
+}
+.themify_builder_6_row.module_row_2.module_row h1 {
+	
+	color: rgba(255,255,255, 1.00)
+}
+.themify_builder_6_row.module_row_2.module_row h2 {
+	
+	color: rgba(255,255,255, 1.00)
+}
+.themify_builder_6_row.module_row_2.module_row h3:not(.module-title) {
+	
+	color: rgba(255,255,255, 1.00)
+}
+.themify_builder_6_row.module_row_2.module_row h4 {
+	
+	color: rgba(255,255,255, 1.00)
+}
+.themify_builder_6_row.module_row_2.module_row h5 {
+	
+	color: rgba(255,255,255, 1.00)
+}
+.themify_builder_6_row.module_row_2.module_row h6 {
+	
+	color: rgba(255,255,255, 1.00)
+}
+
+.themify_builder .text-6-2-0-0.module-text { font-size: 1.5em;  } 
+.themify_builder .text-6-2-0-0.module.module-text h3 { font-family: Lora;  } 
+.themify_builder .text-6-2-0-1.module-text { font-size: .8em; padding-right: 10%; padding-left: 10%;  } 
+.themify_builder .buttons-6-2-0-2.module.module-buttons { padding-top: 3%;  } 
+.themify_builder .buttons-6-2-0-2 .module-buttons .module-buttons-item a { background-color: #ffffff; color: #354456; border-top-color: #ffffff; border-top-width: 2px; border-top-style: solid; border-right-color: #ffffff; border-right-width: 2px; border-right-style: solid; border-bottom-color: #ffffff; border-bottom-width: 2px; border-bottom-style: solid; border-left-color: #ffffff; border-left-width: 2px; border-left-style: solid;  } 
+.themify_builder .buttons-6-2-0-2 .module-buttons .module-buttons-item a:hover { background-color: #815e72; background-color: rgba(129,94,114, 0.05); color: #ffffff;  } 
+/* .themify_builder_6_row.module_row_3 Style */
+.themify_builder_6_row.module_row_3.module_row {
+	padding-top : 7%;
+	padding-bottom : 7%
+}
+
+.themify_builder .text-6-3-0-1.module.module-text .module-title { color: #815E7;  } 
+.themify_builder .testimonial-slider-6-3-1-0.module-testimonial-slider .testimonial-content { text-align: center;  } 
+/* .themify_builder_6_row.module_row_4 Style */
+.themify_builder_6_row.module_row_4.module_row {
+	
+	background-color: rgba(53,68,86, 1)
+}
+
+/* .themify_builder_6_row.module_row_5 Style */
+.themify_builder_6_row.module_row_5.module_row {
+	
+	background-color: rgba(53,68,86, 1.00);
+	text-align: center;
+	
+	color: rgba(255,255,255, 1.00);
+	padding-bottom : 3%
+}
+.themify_builder_6_row.module_row_5.module_row h1 {
+	
+	color: rgba(255,255,255, 1.00)
+}
+.themify_builder_6_row.module_row_5.module_row h2 {
+	
+	color: rgba(255,255,255, 1.00)
+}
+.themify_builder_6_row.module_row_5.module_row h3:not(.module-title) {
+	
+	color: rgba(255,255,255, 1.00)
+}
+.themify_builder_6_row.module_row_5.module_row h4 {
+	
+	color: rgba(255,255,255, 1.00)
+}
+.themify_builder_6_row.module_row_5.module_row h5 {
+	
+	color: rgba(255,255,255, 1.00)
+}
+.themify_builder_6_row.module_row_5.module_row h6 {
+	
+	color: rgba(255,255,255, 1.00)
+}
+
+.themify_builder .text-6-5-0-0.module-text { font-size: 1.5em;  } 
+.themify_builder .text-6-5-0-1.module-text { padding-right: 15%; padding-left: 15%;  } 
+.themify_builder .buttons-6-5-0-2.module.module-buttons { padding-top: 2%; padding-bottom: 3%;  } 
+.themify_builder .buttons-6-5-0-2 .module-buttons .module-buttons-item a { background-color: #ddc37e; color: #ffffff; border-top-color: #ddc37e; border-top-width: 2px; border-top-style: solid; border-right-color: #ddc37e; border-right-width: 2px; border-right-style: solid; border-bottom-color: #ddc37e; border-bottom-width: 2px; border-bottom-style: solid; border-left-color: #ddc37e; border-left-width: 2px; border-left-style: solid;  } 
+.themify_builder .buttons-6-5-0-2 .module-buttons .module-buttons-item a:hover { background-color: #815e72; background-color: rgba(129,94,114, 0.05); color: #ffffff;  } 
