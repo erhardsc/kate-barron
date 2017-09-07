@@ -67,6 +67,7 @@
 
 /* .themify_builder_8_row.module_row_3 Style */
 .themify_builder_8_row.module_row_3.module_row {
+	background-image: url(http://localhost/kate-barron/wp-content/uploads/2017/09/yellow-pattern-tile.png);
 	
 	background-color: rgba(221,194,126, 1.00);
 	padding-top : 7%;
@@ -75,6 +76,7 @@
 
 /* .themify_builder_8_row.module_row_4 Style */
 .themify_builder_8_row.module_row_4.module_row {
+	background-image: url(http://localhost/kate-barron/wp-content/uploads/2017/09/yellow-pattern-tile.png);
 	
 	background-color: rgba(221,194,126, 1.00);
 	padding-bottom : 9%
@@ -90,12 +92,14 @@
 .themify_builder .accordion-8-4-1-1 .ui.module-accordion .accordion-title { font-family: Lora;  } 
 /* .themify_builder_8_row.module_row_5 Style */
 .themify_builder_8_row.module_row_5.module_row {
+	background-image: url(http://localhost/kate-barron/wp-content/uploads/2017/09/dark-blue-pattern-tile.png);
 	
-	background-color: rgba(53,68,86, 1)
+	background-color: rgba(53,68,86, 1.00)
 }
 
 /* .themify_builder_8_row.module_row_6 Style */
 .themify_builder_8_row.module_row_6.module_row {
+	background-image: url(http://localhost/kate-barron/wp-content/uploads/2017/09/dark-blue-pattern-tile.png);
 	
 	background-color: rgba(53,68,86, 1.00);
 	text-align: center;
