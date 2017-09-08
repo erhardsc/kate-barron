@@ -27,7 +27,9 @@ h3 {
 	color: #3e4d61; 
 }
 #headerwrap {	
-	background-color: #ffffff; 
+	background-color: #ffffff;
+	padding-top: 6px;
+	padding-bottom: 6px; 
 }
 #header {	
 	font-family:Montserrat;	font-weight:bold;
@@ -36,9 +38,14 @@ h3 {
 	text-transform:uppercase;
 	color: #354456; 
 }
+#header a {		font-weight:bold;
+	font-weight:bold;
+ 
+}
 #headerwrap.fixed-header #header, #headerwrap.fixed-header #site-description {		text-align:left; 
 }
 #site-logo, #site-logo a, .header-horizontal #site-logo, .header-minbar #site-logo, .header-leftpane #site-logo, .header-slide-out #site-logo, .boxed-compact #site-logo, .header-top-bar #site-logo {		font-weight:800;
+	letter-spacing:0px;
 	text-transform:capitalize; 
 }
 #main-nav a:hover, #main-nav > li > a:hover {	
@@ -51,7 +58,7 @@ h3 {
 	color: #ddc37e; 
 }
 #footerwrap {	
-	background-color: #354456; 
+	background-color: #364655; 
 }
 #footer {	
 	color: #606e7b; 

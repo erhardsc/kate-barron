@@ -8,8 +8,60 @@ Template: themify-ultra
 /*** Sumner Styles Start ***/
 
 /* =================================
+  Fonts
+==================================== */
+
+@font-face {
+    font-family: "Montserrat-light";
+    src: url("../themify-ultra-child/fonts/Montserrat-Light.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url("../themify-ultra-child/fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url("../themify-ultra-child/fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Lora-Italic";
+    src: url("../themify-ultra-child/fonts/Lora-Italic.ttf");
+}
+
+.mont-light p {
+    font-family: Montserrat-light !important;
+}
+
+.mont-regular p,
+.mont-regular h1,
+.mont-regular h2,
+.mont-regular h3,
+.mont-regular a {
+    font-family: Montserrat-Regular !important;
+    font-weight: unset !important;
+}
+
+.mont-bold p,
+.mont-bold a {
+    font-family: Montserrat-Bold;
+}
+
+.lora-italic p,
+.lora-italic h2{
+    font-family: Lora-Italic !important;
+    letter-spacing: 0 !important;
+}
+
+/* =================================
   Base Layout Styles
 ==================================== */
+
+.header-icons {
+    padding-top: 6px;
+}
 
 #main-nav #menu-item-17 {
     background-color: #ddc37e !important;
@@ -34,20 +86,48 @@ Template: themify-ultra
     color: #354456 !important;
 }
 
+.home .text-6-0-0-0 h1{
+    margin: 0 0 -0.2em;
+}
+
 .purple {
     color: #815E72;
 }
 
 .services-tabs {
     margin-bottom: 10px;
-    border-radius: 30px;
-    padding: .5em 0 2em 0 !important;
+    border-radius: 20px;
+    padding: .1em 0 0 0 !important;
     transition: all .2s ease-in-out;
 }
+
+/*.tb_mobile .themify_builder_content.themify_builder .themify_builder_row .row_inner_wrapper .mobile-col-direction-ltr {*/
+    /*flex-flow: row;*/
+/*}*/
+
+.home .services-tabs .learn-more p {
+    position: relative;
+    bottom: 10px;
+    margin-bottom: 0 !important;
+}
+
+/*.services-tabs .module-image .image-title a {*/
+    /*font-weight: 700;*/
+    /*letter-spacing: .1em;*/
+/*}*/
+
+/*.services-tabs .module-image .image-title a,*/
+/*.services-tabs .learn-more a {*/
+    /*font-size: .5em;*/
+/*}*/
 
 .home .module_column_6-1-0 {
      margin-top: 10px;
  }
+
+.home .testimonial-content {
+    margin-top: 17px;
+}
 
 .services-tabs .module-image .image-wrap img {
     width: 50px !important;
@@ -61,22 +141,43 @@ Template: themify-ultra
     font-style: italic;
 }
 
+.services select {
+position: relative !important;
+bottom: 35px !important;
+right: 8px !important;
+border: none !important;
+box-shadow: 0 3px #ffffff, 0 5px rgba(0, 0, 0, 0.16) !important;
+}
+
 .content-box{
     /*bottom: 50px;*/
     background-color: white;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
     border-radius: 15px;
-    padding: 10%;
+    padding: 5% 10% 5% 10%;
     -webkit-box-shadow: 0 10px 59px -1px rgba(84,84,84,0.58);
     -moz-box-shadow: 0 10px 59px -1px rgba(84,84,84,0.58);
     box-shadow: 0 10px 59px -1px rgba(84,84,84,0.58);
 
 }
 
+.ui.module-accordion .accordion-content{
+    background: #d8bb82;
+}
+
+.ui.module-accordion .accordion-content p {
+    font-family: Montserrat-light !important;
+}
+
 .barron-contact .inline {
     display: block;
     width: 100%;
+}
+
+.contact-icons .module-icon,
+.text-12-3-0-0 p{
+    text-align: center !important;
 }
 
 .footer-widgets .col4-1,
@@ -125,9 +226,9 @@ Template: themify-ultra
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    -webkit-box-shadow: 0px 0px 61px -10px rgba(41,41,41,1);
-    -moz-box-shadow: 0px 0px 61px -10px rgba(41,41,41,1);
-    box-shadow: 0px 0px 61px -10px rgba(41,41,41,1);
+    -webkit-box-shadow: 2px 0px 101px -40px rgba(41,41,41,1);
+    -moz-box-shadow: 2px 0px 101px -40px rgba(41,41,41,1);
+    box-shadow: 2px 0px 101px -40px rgba(41,41,41,1);
 }
 
 .home .module_column_6-3-0 {
@@ -157,6 +258,10 @@ Template: themify-ultra
     border:none !important;
 }
 
+.text-12-0-0-1 {
+    margin-top: -27px;
+}
+
 .italic p,
 .italic a,
 .italic h1,
@@ -175,10 +280,17 @@ Template: themify-ultra
 .bold h3{
     font-weight: 800;
 }
+
 .in-home-services-row,
 .concierge-row,
 .family-assistance-row {
     display: none;
+}
+
+.in-home-services-row,
+.concierge-row,
+.family-assistance-row {
+    display: block !important;
 }
 
 .page-id-10 .carousel-pager a {
@@ -189,23 +301,27 @@ Template: themify-ultra
     margin-bottom: 1em;
 }
 
+#footer a {
+    font-size: 1em !important;
+}
+
+#footer .footer-text-inner .one {
+    font-size: 1.3em;
+}
+
+.page-id-10 .arrows {
+    display: none;
+}
+
 
 /* =================================
   Tablet Layout Styles
 ==================================== */
 
 @media (min-width: 680px) {
-    .footer-widgets .col4-1 {
-        text-align: left;
-    }
 
-    #footer .footer-text{
-        text-align: right;
-    }
-
-    #footer .main-col {
-        position: relative;
-        top:0;
+    #main-nav li {
+        padding: 0 15px 0 15px !important;
     }
 
     #main-nav #menu-item-17 {
@@ -215,7 +331,7 @@ Template: themify-ultra
     }
 
     .content-box {
-        bottom: 90px;
+        bottom: 130px;
     }
 
     .barron-contact {
@@ -234,14 +350,23 @@ Template: themify-ultra
         position: relative;
     }
 
+    .page-id-10 .services-tabs {
+        margin-bottom: 15px;
+    }
+
     .services-tabs:hover {
-        transform:  translateY(18px) scale(1.2);
-        border-radius: 30px;
+        transform:  translateY(14px) scale(1.2);
+        border-radius: 20px;
         -webkit-box-shadow: 0px 10px 90px -10px rgba(48,48,48,1);
         -moz-box-shadow: 0px 10px 90px -10px rgba(48,48,48,1);
         box-shadow: 0px 10px 90px -10px rgba(48,48,48,1);
         position: relative;
         z-index: 10;
+        margin-bottom: -9px;
+
+    }
+
+    .services-tabs:hover > .services-tabs .module-image {
         border-right: none !important;
     }
 
@@ -310,13 +435,101 @@ Template: themify-ultra
         -moz-box-shadow: 0px 2px 31px 0px rgba(0,0,0,0.75);
         box-shadow: 0px 2px 31px 0px rgba(0,0,0,0.75);
         position: relative;
-        /*bottom: 70px;*/
+        bottom: 70px;
     }
 
     .sub_row_8-0-3 .sub_row_inner_wrapper {
         position: relative;
         bottom: 285px;
     }
+
+    .care-planning-row .module-text h1 {
+        letter-spacing: 0;
+    }
+
+    .page-id-10 .module-icon span {
+        font-size: 1.45vw;
+    }
+
+    .page-id-10 .testimonial-content .testimonial-entry-content p {
+        font-family: Lora-Italic;
+        font-size: 1.25em;
+    }
+
+    .home .making-happy-families {
+        position: relative;
+        left: 20px;
+    }
+
+    .text-10-8-0-4 img {
+        position: relative;
+        top: 15px;
+        right: 15px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .page-id-10 .sub_row_8-0-2 .module-feature-content p {
+        font-family: Montserrat-light !important;
+    }
+
+    .page-id-10 .sub_row_8-0-2  .col4-1 {
+        position: relative;
+    }
+
+    .page-id-10 .arrows {
+        display: block;
+        position: absolute;
+        top: 39px;
+        right:-36px;
+    }
+
+    .home .making-happy-families .testimonial-content p,
+    .home .serving-with-care .image-content {
+        font-family: Montserrat-light;
+    }
+
+    .home .making-happy-families .testimonial-content p {
+        margin: 0 2em 2em 2em;
+    }
+
+    .contact-icons .module-icon {
+        text-align: left !important;
+    }
+
+    .text-12-3-0-0 p {
+        text-align: right !important;
+    }
+
+    .footer-widgets .col4-1 {
+        text-align: left;
+    }
+
+    #footer .footer-text{
+        text-align: right;
+    }
+
+    #footer .main-col {
+        position: relative;
+        top:0;
+    }
+
+    #footer .main-col {
+        width: 35% !important;
+    }
+
+    #footer .section-col {
+        width: 60% !important;
+    }
+
+    #footer .footer-widgets .col4-1 {
+        margin-left: 0 !important;
+    }
+
+    div#text-12-0-0-1 h2 {
+        margin: 0 0 3em;
+    }
+
 
 }
 
@@ -344,6 +557,24 @@ Template: themify-ultra
         /*transform: translateY(25px) scale(1.2);*/
     /*}*/
 
+
+    .sub_row_8-0-3 .sub_row_inner_wrapper {
+        position: relative;
+        bottom: 320px;
+    }
+
+    .home .making-happy-families {
+        left: 40px;
+    }
+
+    #footer .footer-widgets .col4-1 {
+        margin-left: -2em !important;
+    }
+
+    div#text-12-0-0-1 h2 {
+        margin: 0 0 1em;
+    }
+
     .page-id-10 .themify_builder_slider>li,
     .page-id-10 .themify_builder .testimonial-slider-10-7-0-0.module-testimonial-slider .testimonial-content{
         text-align: left;
@@ -360,11 +591,6 @@ Template: themify-ultra
     .page-id-10 .testimonial-content {
         width: 75%;
         display: inline-block !important;
-    }
-
-    .sub_row_8-0-3 .sub_row_inner_wrapper {
-        position: relative;
-        bottom: 320px;
     }
 
 }

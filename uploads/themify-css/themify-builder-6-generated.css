@@ -140,8 +140,14 @@
 }
 
 .themify_builder .text-6-2-0-0.module-text { font-size: 1.5em;  } 
-.themify_builder .text-6-2-0-0.module.module-text h3 { font-family: Lora;  } 
-.themify_builder .text-6-2-0-1.module-text { font-size: .8em; padding-right: 10%; padding-left: 10%;  } 
+.themify_builder .text-6-2-0-0.module.module-text h3 { font-family: Lora; font-size: 1.5em;  } 
+.themify_builder .text-6-2-0-1.module-text { font-family: Montserrat; font-size: 1em; line-height: 2em; padding-right: 10%; padding-left: 10%;  } 
+.themify_builder .text-6-2-0-1.module-text h1 { font-family: Montserrat;  } 
+.themify_builder .text-6-2-0-1.module-text h2 { font-family: Montserrat;  } 
+.themify_builder .text-6-2-0-1.module-text h3:not(.module-title) { font-family: Montserrat;  } 
+.themify_builder .text-6-2-0-1.module-text h4 { font-family: Montserrat;  } 
+.themify_builder .text-6-2-0-1.module-text h5 { font-family: Montserrat;  } 
+.themify_builder .text-6-2-0-1.module-text h6 { font-family: Montserrat;  } 
 .themify_builder .buttons-6-2-0-2.module.module-buttons { padding-top: 3%;  } 
 .themify_builder .buttons-6-2-0-2 .module-buttons .module-buttons-item a { background-color: #ffffff; color: #354456; border-top-color: #ffffff; border-top-width: 2px; border-top-style: solid; border-right-color: #ffffff; border-right-width: 2px; border-right-style: solid; border-bottom-color: #ffffff; border-bottom-width: 2px; border-bottom-style: solid; border-left-color: #ffffff; border-left-width: 2px; border-left-style: solid;  } 
 .themify_builder .buttons-6-2-0-2 .module-buttons .module-buttons-item a:hover { background-color: #815e72; background-color: rgba(129,94,114, 0.05); color: #ffffff;  } 
@@ -157,14 +163,16 @@
 .themify_builder .testimonial-slider-6-3-1-0.module-testimonial-slider .testimonial-content { text-align: center;  } 
 /* .themify_builder_6_row.module_row_4 Style */
 .themify_builder_6_row.module_row_4.module_row {
+	background-image: url(http://localhost/kate-barron/wp-content/uploads/2017/09/dark-blue-pattern-tile.png);
 	
-	background-color: rgba(53,68,86, 1)
+	background-color: rgba(54,70,85, 1.00)
 }
 
 /* .themify_builder_6_row.module_row_5 Style */
 .themify_builder_6_row.module_row_5.module_row {
+	background-image: url(http://localhost/kate-barron/wp-content/uploads/2017/09/dark-blue-pattern-tile.png);
 	
-	background-color: rgba(53,68,86, 1.00);
+	background-color: rgba(54,70,85, 1.00);
 	text-align: center;
 	
 	color: rgba(255,255,255, 1.00);
