@@ -15,7 +15,7 @@
 
 @media screen and (max-width: 680px) {/* .themify_builder_6_row.module_row_0 Style */
 .themify_builder_6_row.module_row_0.module_row {
-	background-image: url(http://localhost/kate-barron/wp-content/uploads/2017/09/home-stock-fade.png)
+	background-image: url(http://localhost/kate-barron/wp-content/uploads/2017/09/home-stock-1-e1505168360293.jpg)
 }
 
 }
@@ -26,7 +26,7 @@
 .themify_builder .text-6-0-0-0.module-text h4 { color: #ffffff;  } 
 .themify_builder .text-6-0-0-0.module-text h5 { color: #ffffff;  } 
 .themify_builder .text-6-0-0-0.module-text h6 { color: #ffffff;  } 
-.themify_builder .text-6-0-0-0.module.module-text h1 { color: #487693; font-size: 4em;  } 
+.themify_builder .text-6-0-0-0.module.module-text h1 { color: #487693; font-size: 3em;  } 
 .themify_builder .text-6-0-0-0.module.module-text h3 { font-family: Lora; color: #487693; font-size: 2em;  } 
 .themify_builder .buttons-6-0-0-1.module.module-buttons { padding-top: 3%;  } 
 .themify_builder .buttons-6-0-0-1 .module-buttons .module-buttons-item a { background-color: #815e72; color: #ffffff; border-top-color: #815e72; border-top-width: 2px; border-top-style: solid; border-right-color: #815e72; border-right-width: 2px; border-right-style: solid; border-bottom-color: #815e72; border-bottom-width: 2px; border-bottom-style: solid; border-left-color: #815e72; border-left-width: 2px; border-left-style: solid;  } 
@@ -34,7 +34,8 @@
 /* .themify_builder_6_row.module_row_1 Style */
 .themify_builder_6_row.module_row_1.module_row {
 	
-	background-color: rgba(129,94,114, 1.00)
+	background-color: rgba(129,94,114, 1.00);
+	padding-bottom : 2%
 }
 
 /* .module_row_1 .module_column_0.tb_6_column Style */
@@ -139,8 +140,14 @@
 	color: rgba(255,255,255, 1.00)
 }
 
+@media screen and (max-width: 680px) {/* .themify_builder_6_row.module_row_2 Style */
+.themify_builder_6_row.module_row_2.module_row {
+	padding-top : 3%
+}
+
+}
 .themify_builder .text-6-2-0-0.module-text { font-size: 1.5em;  } 
-.themify_builder .text-6-2-0-0.module.module-text h3 { font-family: Lora; font-size: 1.5em;  } 
+.themify_builder .text-6-2-0-0.module.module-text h3 { font-family: Lora; font-size: 1.5em; line-height: 1.2em;  } 
 .themify_builder .text-6-2-0-1.module-text { font-family: Montserrat; font-size: 1em; line-height: 2em; padding-right: 10%; padding-left: 10%;  } 
 .themify_builder .text-6-2-0-1.module-text h1 { font-family: Montserrat;  } 
 .themify_builder .text-6-2-0-1.module-text h2 { font-family: Montserrat;  } 
@@ -154,7 +161,7 @@
 /* .themify_builder_6_row.module_row_3 Style */
 .themify_builder_6_row.module_row_3.module_row {
 	padding-top : 7%;
-	padding-bottom : 7%
+	padding-bottom : 5%
 }
 
 .themify_builder .image-6-3-0-0.module-image .image-title { font-size: 1.6em;  } 

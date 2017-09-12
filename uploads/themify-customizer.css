@@ -57,8 +57,8 @@ h3 {
 #main-nav .current_page_item a:hover,  #main-nav .current-menu-item a:hover {	
 	color: #ddc37e; 
 }
-#footerwrap {	
-	background-color: #364655; 
+#footerwrap {	background-image: url(http://localhost/kate-barron/wp-content/uploads/2017/09/dark-blue-pattern-tile.png);
+	background-repeat: repeat; 
 }
 #footer {	
 	color: #606e7b; 

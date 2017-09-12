@@ -86,6 +86,15 @@ Template: themify-ultra
     color: #354456 !important;
 }
 
+.themify_builder_6_row.module_row_0.module_row {
+    -webkit-background-size: cover !important;
+    background-size: cover !important;
+}
+
+/*.themify_builder .text-6-0-0-0.module.module-text h1 {*/
+    /*font-size: 3em !important;*/
+/*}*/
+
 .home .text-6-0-0-0 h1{
     margin: 0 0 -0.2em;
 }
@@ -99,11 +108,23 @@ Template: themify-ultra
     border-radius: 20px;
     padding: .1em 0 0 0 !important;
     transition: all .2s ease-in-out;
+    width: 46% !important;
 }
 
-/*.tb_mobile .themify_builder_content.themify_builder .themify_builder_row .row_inner_wrapper .mobile-col-direction-ltr {*/
-    /*flex-flow: row;*/
-/*}*/
+
+.page-id-10.tb_mobile .themify_builder.themify_builder_content
+.themify_builder_row .gutter-none:not(.mobile-auto)>div.module_column.services-tabs,
+.home.tb_mobile .themify_builder.themify_builder_content
+.themify_builder_row .gutter-none:not(.mobile-auto)>div.module_column.services-tabs{
+    margin-left: 10px !important;
+}
+
+.page-id-10 .services-tabs {
+    -webkit-box-shadow: 0px 0px 72px -14px rgba(209,209,209,1);
+    -moz-box-shadow: 0px 0px 72px -14px rgba(209,209,209,1);
+    box-shadow: 0px 0px 72px -14px rgba(209,209,209,1);
+}
+
 
 .home .services-tabs .learn-more p {
     position: relative;
@@ -111,19 +132,12 @@ Template: themify-ultra
     margin-bottom: 0 !important;
 }
 
-/*.services-tabs .module-image .image-title a {*/
-    /*font-weight: 700;*/
-    /*letter-spacing: .1em;*/
-/*}*/
-
-/*.services-tabs .module-image .image-title a,*/
-/*.services-tabs .learn-more a {*/
-    /*font-size: .5em;*/
-/*}*/
-
-.home .module_column_6-1-0 {
-     margin-top: 10px;
- }
+.home .module_column_6-1-0,
+.home .module_column_6-1-1,
+.page-id-10 .module_column_10-1-0,
+.page-id-10 .module_column_10-1-1 {
+    margin-top: 33px;
+}
 
 .home .testimonial-content {
     margin-top: 17px;
@@ -142,11 +156,11 @@ Template: themify-ultra
 }
 
 .services select {
-position: relative !important;
-bottom: 35px !important;
-right: 8px !important;
-border: none !important;
-box-shadow: 0 3px #ffffff, 0 5px rgba(0, 0, 0, 0.16) !important;
+    position: relative !important;
+    bottom: 35px !important;
+    right: 8px !important;
+    border: none !important;
+    box-shadow: 0 3px #ffffff, 0 5px rgba(0, 0, 0, 0.16) !important;
 }
 
 .content-box{
@@ -163,7 +177,7 @@ box-shadow: 0 3px #ffffff, 0 5px rgba(0, 0, 0, 0.16) !important;
 }
 
 .ui.module-accordion .accordion-content{
-    background: #d8bb82;
+    background: transparent;
 }
 
 .ui.module-accordion .accordion-content p {
@@ -204,6 +218,18 @@ box-shadow: 0 3px #ffffff, 0 5px rgba(0, 0, 0, 0.16) !important;
     width: 96% !important;
 }
 
+.contact-icons p {
+    position: relative;
+    bottom: 15px;
+    margin-bottom: 1em;
+}
+
+.contact-icons img {
+    position: relative;
+    top: 15px;
+    width: 30px;
+}
+
 .home #footerwrap {
     border: none !important;
 }
@@ -218,8 +244,8 @@ box-shadow: 0 3px #ffffff, 0 5px rgba(0, 0, 0, 0.16) !important;
 }
 
 .row_inner_wrapper,
-.home #footer-wrap {
-    margin-top: -1px;
+div#footerwrap {
+    margin-top: -1px !important;
 }
 
 .kates-promise .image-wrap img {
@@ -242,9 +268,9 @@ box-shadow: 0 3px #ffffff, 0 5px rgba(0, 0, 0, 0.16) !important;
 }
 
 .accordion-title a{
-    background-color: #D8BC83;
+    /*background-color: #D2B470;*/
     border-top: 1px solid #E9DAB1 !important;
-    font-size: .8em;
+    font-size: 1em;
     font-style: italic;
 }
 
@@ -256,10 +282,6 @@ box-shadow: 0 3px #ffffff, 0 5px rgba(0, 0, 0, 0.16) !important;
 
 .module-accordion {
     border:none !important;
-}
-
-.text-12-0-0-1 {
-    margin-top: -27px;
 }
 
 .italic p,
@@ -281,20 +303,44 @@ box-shadow: 0 3px #ffffff, 0 5px rgba(0, 0, 0, 0.16) !important;
     font-weight: 800;
 }
 
+.home .serving-with-care .image-content {
+    font-family: Montserrat-light;
+}
+
+.home .making-happy-families .testimonial-content p {
+    margin: 0 2em 2em 2em;
+    font-family: Lora-Italic;
+}
+
+.home .making-happy-families .carousel-prev,
+.home .making-happy-families .carousel-next {
+    display: block !important;
+    background: none !important;
+    color: #E6E8E5 !important;
+}
+
+.logged-in.admin-bar .in-home-services-row,
+.logged-in.admin-bar .concierge-row,
+.logged-in.admin-bar .family-assistance-row {
+    display: block !important;
+}
+
 .in-home-services-row,
 .concierge-row,
 .family-assistance-row {
     display: none;
 }
 
-.in-home-services-row,
-.concierge-row,
-.family-assistance-row {
-    display: block !important;
-}
-
 .page-id-10 .carousel-pager a {
     color: white;
+}
+
+.page-id-10 .module_column_10-3-1 span{
+    font-family: Montserrat-light;
+}
+
+.page-id-10 .text-10-3-0-1 p{
+    font-family: Montserrat-light;
 }
 
 #text-10-sub_row_8-0-4-1-0 p {
@@ -313,12 +359,63 @@ box-shadow: 0 3px #ffffff, 0 5px rgba(0, 0, 0, 0.16) !important;
     display: none;
 }
 
+.page-id-10 .module_row_10-6 {
+    padding-top: 21px;
+}
+
+/*.themify_builder .text-12-0-0-0.module.module-text h1 {*/
+    /*padding-bottom: 3% !important;*/
+/*}*/
+
+.top-text h1 {
+    font-size: 2.5em !important;
+}
+
+.sub-text h2{
+    font-size: 2.2em !important;
+}
+
+ul.ui.module-accordion.default.default,
+.accordion-title {
+    background:transparent !important;
+}
+
+div#text-8-2-1-1 p {
+    font-family: Montserrat-light;
+}
+
+.text-10-8-0-0 h1 {
+    font-family: Montserrat-Regular;
+    font-weight: unset;
+    font-size: 2.2em;
+}
+
 
 /* =================================
   Tablet Layout Styles
 ==================================== */
 
 @media (min-width: 680px) {
+
+    .home .module_column_6-1-1 {
+        margin-top: 0;
+    }
+
+    .accordion-title a{
+        font-size: 1.8vw;
+    }
+
+    .top-text h1 {
+        font-size: 3.2em !important;
+        line-height: .5em;
+        /*margin-top: 2%;*/
+        /*padding-bottom: 0 !important;*/
+    }
+
+    .sub-text h2 {
+        /*margin-bottom: 10%;*/
+        font-size: 2.7em !important;
+    }
 
     #main-nav li {
         padding: 0 15px 0 15px !important;
@@ -330,8 +427,24 @@ box-shadow: 0 3px #ffffff, 0 5px rgba(0, 0, 0, 0.16) !important;
         font-size: .8em;
     }
 
+    .home .module_column_6-1-0,
+    .home .module_column_6-1-1,
+    .page-id-10 .module_column_10-1-0,
+    .page-id-10 .module_column_10-1-1 {
+        margin-top: 0;
+    }
+
+    .themify_builder_6_row.module_row_0.module_row {
+        -webkit-background-size: contain !important;
+        background-size: contain !important;
+    }
+
+    .themify_builder .text-6-0-0-0.module.module-text h1 {
+        font-size: 4em !important;
+    }
+
     .content-box {
-        bottom: 130px;
+        bottom: 4em;
     }
 
     .barron-contact {
@@ -343,11 +456,22 @@ box-shadow: 0 3px #ffffff, 0 5px rgba(0, 0, 0, 0.16) !important;
         width: 50% !important;
     }
 
+    .page-id-10 .services-tabs {
+        box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+
     .services-tabs {
         margin-bottom: 0;
         border-radius: 0;
         box-shadow: none;
         position: relative;
+        width: 25% !important;
+    }
+
+    .tb_mobile .themify_builder.themify_builder_content
+    .themify_builder_row .gutter-none:not(.mobile-auto)>div.module_column {
+        margin-left: 0px !important;
     }
 
     .page-id-10 .services-tabs {
@@ -427,15 +551,27 @@ box-shadow: 0 3px #ffffff, 0 5px rgba(0, 0, 0, 0.16) !important;
         text-align: left;
         padding-top: 0;
     }
+    .home .module_row_6-1 .row_inner {
+        -webkit-box-shadow: 0px 20px 60px -11px rgb(82, 82, 82);
+        -moz-box-shadow: 0px 20px 60px -11px rgb(82, 82, 82);
+        box-shadow: 0px 20px 60px -11px rgb(82, 82, 82);
+    }
 
     .page-id-10 .module_row_10-1 .row_inner,
     .home .module_row_6-1 .row_inner {
         border-radius: 20px;
-        -webkit-box-shadow: 0px 2px 31px 0px rgba(0,0,0,0.75);
-        -moz-box-shadow: 0px 2px 31px 0px rgba(0,0,0,0.75);
-        box-shadow: 0px 2px 31px 0px rgba(0,0,0,0.75);
         position: relative;
         bottom: 70px;
+    }
+
+    .page-id-10 .module_row_10-6 {
+        padding-top: 0 !important;
+    }
+
+    .page-id-10 .module_row_10-1 .row_inner {
+        -webkit-box-shadow: 0px 20px 60px -11px rgba(209,209,209,1);
+        -moz-box-shadow: 0px 20px 60px -11px rgba(209,209,209,1);
+        box-shadow: 0px 20px 60px -11px rgba(209,209,209,1);
     }
 
     .sub_row_8-0-3 .sub_row_inner_wrapper {
@@ -443,12 +579,19 @@ box-shadow: 0 3px #ffffff, 0 5px rgba(0, 0, 0, 0.16) !important;
         bottom: 285px;
     }
 
-    .care-planning-row .module-text h1 {
+    .care-planning-row .module-text h1,
+    .in-home-services-row .module-text h1,
+    .concierge-row .module-text h1,
+    .family-assistance-row .module-text h1 {
         letter-spacing: 0;
     }
 
     .page-id-10 .module-icon span {
-        font-size: 1.45vw;
+        font-size: 1.125em;
+    }
+
+    .page-id-10 .module_column_10-9-1 .module-icon span {
+        font-size: 1.4vw;
     }
 
     .page-id-10 .testimonial-content .testimonial-entry-content p {
@@ -484,13 +627,17 @@ box-shadow: 0 3px #ffffff, 0 5px rgba(0, 0, 0, 0.16) !important;
         right:-36px;
     }
 
-    .home .making-happy-families .testimonial-content p,
-    .home .serving-with-care .image-content {
-        font-family: Montserrat-light;
-    }
-
     .home .making-happy-families .testimonial-content p {
         margin: 0 2em 2em 2em;
+
+    }
+
+    .making-happy-families .carousel-prev {
+
+    }
+
+    .making-happy-families .carousel-next {
+
     }
 
     .contact-icons .module-icon {
@@ -551,12 +698,19 @@ box-shadow: 0 3px #ffffff, 0 5px rgba(0, 0, 0, 0.16) !important;
     }
 
     .accordion-title a{
-        font-size: 1em;
+        font-size: 1.124em;
     }
     /*.services-tabs:hover {*/
-        /*transform: translateY(25px) scale(1.2);*/
+    /*transform: translateY(25px) scale(1.2);*/
     /*}*/
 
+    .home .making-happy-families .carousel-prev:before,
+    .home .making-happy-families .carousel-next:before {
+        width: 20px;
+        height: 20px;
+        margin-left: 1px;
+
+    }
 
     .sub_row_8-0-3 .sub_row_inner_wrapper {
         position: relative;
@@ -591,6 +745,14 @@ box-shadow: 0 3px #ffffff, 0 5px rgba(0, 0, 0, 0.16) !important;
     .page-id-10 .testimonial-content {
         width: 75%;
         display: inline-block !important;
+    }
+
+    .page-id-10 .module_column_10-9-1 .module-icon span {
+        font-size: 1em;
+    }
+
+    .content-box {
+        bottom: 6em;
     }
 
 }

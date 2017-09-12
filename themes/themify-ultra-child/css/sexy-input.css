@@ -1,3 +1,24 @@
+
+.barron-contact .wpforms-field-container {
+    padding-top: 20px !important;
+}
+
+.barron-contact .sexy-field input[type=text]::-webkit-input-placeholder {
+    font-family: Montserrat !important;
+}
+
+.barron-contact .sexy-field input[type=text]:-ms-input-placeholder {
+    font-family: Montserrat !important;
+}
+
+.barron-contact .sexy-field input[type=text]:-moz-placeholder {
+    font-family: Montserrat !important;
+}
+
+.barron-contact .sexy-field input[type=text]::-moz-placeholder {
+    font-family: Montserrat !important;
+}
+
 .barron-contact .sexy-field input[type=text] {
     position: relative;
     width: 90% !important;
@@ -8,11 +29,11 @@ div.wpforms-container-full .wpforms-form select.wpforms-field-large {
     width: 93% !important;
 }
 
-input#sexy-input-0 {
+.page-id-12 .barron-contact input#sexy-input-0 {
     width: 96% !important;
 }
 
-input {
+.page-id-12 .barron-contact input {
     border: none !important;
     border-bottom: solid 1px #EAEBEA !important;
     -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1) !important;
@@ -22,23 +43,21 @@ input {
     background-position: -1000px 0 !important;
     background-size: 1000px 100% !important;
     background-repeat: no-repeat !important;
-    color: white !important;
 }
 
-input:focus {
+.page-id-12 .barron-contact input:focus {
     box-shadow: none !important;
     outline: none !important;
     background-position: 0 0 !important;
 }
-input[type=text]:focus::-webkit-input-placeholder {
+.page-id-12 .barron-contact input[type=text]:focus::-webkit-input-placeholder {
     font-size: 11px !important;
-    -webkit-transform: translateY(-10px) !important;
-    transform: translateY(-10px) !important;
+    -webkit-transform: translateY(-16px) !important;
+    transform: translateY(-16px) !important;
     visibility: visible !important;
-    color: white !important;
 }
 
-input[type=text]::-webkit-input-placeholder {
+.page-id-12 .barron-contact input[type=text]::-webkit-input-placeholder {
     font-family: 'roboto', sans-serif;
     -webkit-transition: all 0.3s ease-in-out !important;
     transition: all 0.3s ease-in-out !important;
@@ -46,4 +65,11 @@ input[type=text]::-webkit-input-placeholder {
 
 div.wpforms-container-full .wpforms-form .wpforms-field {
     padding: 20px 0 !important;
+}
+
+@media (min-width: 680px) {
+    .barron-contact .wpforms-field-container {
+        padding-top: 0 !important;
+    }
+
 }

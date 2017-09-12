@@ -5,8 +5,8 @@
 	text-align: center;
 	
 	color: rgba(255,255,255, 1.00);
-	padding-top : 2%;
-	padding-bottom : 9%
+	padding-top : 10%;
+	padding-bottom : 10%
 }
 .themify_builder_8_row.module_row_0.module_row h1 {
 	
@@ -41,18 +41,24 @@
 
 /* .module_row_0 .module_column_0.tb_8_column Style */
 .module_row_0 .module_column_0.tb_8_column.module_column {
-	padding-top : 5%;
 	padding-right : 8%;
-	padding-bottom : 5%;
 	padding-left : 8%
 }
 
+.themify_builder .text-8-0-0-0.module.module-text h1 { font-size: 2.5em;  } 
 .themify_builder .text-8-0-0-1.module-text { font-size: .5em;  } 
+.themify_builder .text-8-0-0-1.module_row { letter-spacing: 0em;  } 
 /* .themify_builder_8_row.module_row_1 Style */
 .themify_builder_8_row.module_row_1.module_row {
 	text-align: center
 }
 
+@media screen and (max-width: 680px) {/* .themify_builder_8_row.module_row_1 Style */
+.themify_builder_8_row.module_row_1.module_row {
+	padding-top : 6%
+}
+
+}
 .themify_builder .text-8-1-0-0.module-text { padding-bottom: 2%;  } 
 .themify_builder .text-8-1-0-0.module.module-text h3 { font-size: 2em;  } 
 .themify_builder .text-8-1-0-1.module-text { color: #487693; font-size: 1.1em;  } 
@@ -67,6 +73,12 @@
 	padding-bottom : 8%
 }
 
+@media screen and (max-width: 680px) {/* .themify_builder_8_row.module_row_2 Style */
+.themify_builder_8_row.module_row_2.module_row {
+	padding-top : 7%
+}
+
+}
 /* .themify_builder_8_row.module_row_3 Style */
 .themify_builder_8_row.module_row_3.module_row {
 	background-image: url(http://localhost/kate-barron/wp-content/uploads/2017/09/yellow-pattern-tile.png);
@@ -84,6 +96,12 @@
 	padding-bottom : 9%
 }
 
+@media screen and (max-width: 680px) {/* .themify_builder_8_row.module_row_4 Style */
+.themify_builder_8_row.module_row_4.module_row {
+	padding-bottom : 15%
+}
+
+}
 .themify_builder .accordion-8-4-0-0 .ui.module-accordion .accordion-title { font-family: Lora; color: #354456;  } 
 .themify_builder .accordion-8-4-0-0 .ui.module-accordion .accordion-title a { color: #354456;  } 
 .themify_builder .accordion-8-4-0-1 .ui.module-accordion { margin-top: 10px;  } 
